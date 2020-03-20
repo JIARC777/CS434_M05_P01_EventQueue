@@ -8,7 +8,7 @@ public class EventBus : Singleton<EventBus>
     private Dictionary<string, UnityEvent> m_EventDictionary;
     private int eventsInQueue = 0;
     // time it takes for queue to dequeue and trigger event
-    private float dequeueInterval = 1f;
+    private float dequeueInterval = 2.5f;
     private List<string> eventQueue;
     bool queueRunning = false;
 
